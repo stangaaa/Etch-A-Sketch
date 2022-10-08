@@ -1,0 +1,16 @@
+#grid {
+    margin: 10px;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.grid-item {
+    height: 100;
+    width: 100;
+    flex: 1 1 5.5%;
+    border: 2px solid red;
+}
